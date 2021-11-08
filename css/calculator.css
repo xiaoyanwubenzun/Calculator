@@ -1,0 +1,94 @@
+.content {
+	height: 98vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calculator {
+	width: 400px;
+	height: 615px;
+	background-color: rgb(241, 241, 241);
+	border: 1px black solid;
+}
+
+.calculator-memory {
+	margin-top: 20px;
+	height: 30px;
+}
+
+.calculator-memory button {
+	width: 65px;
+	border: none;
+	line-height: 30px;
+	font-size: 10px;
+	font-weight: 600;
+	background-color: #f1f1f1;
+}
+
+.calculator-standard button {
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	border: 2px solid #f1f1f1;
+}
+
+.show-calculator-operation {
+	height: 50px;
+	margin-top: 50px;
+	font-size: 20px;
+	color: #c0c0c0;
+	line-height: 50px;
+}
+
+.show-calculator-result {
+	height: 100px;
+	font-size: 35px;
+	color: #000;
+	font-weight: 600;
+	line-height: 100px;
+}
+
+.show-calculator-operation,
+.show-calculator-result {
+	text-align: right;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.operation-choose,
+.calculation-result {
+	white-space: nowrap;
+	max-width: -webkit-fill-available;
+}
+
+.calculator button:hover {
+	background-color: #d6d4d4;
+}
+
+.calculator-btn-operation {
+	font-size: 20px;
+	font-weight: 550;
+	background-color: #fff;
+}
+
+.calculator-btn-conversion {
+	background-color: #f5f5f5;
+}
+
+.operation-btn-style {
+	font-weight: 300;
+	font-size: 25px;
+	font-family: auto;
+	background-color: #f5f5f5;
+}
+
+.equals {
+	background-color: #8abae0;
+}
+
+.equals:hover {
+	background-color: #4599db!important;
+}
